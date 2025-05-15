@@ -6,7 +6,6 @@ public class Autor {
     private String apellido;
     private String nacionalidad;
 
-    // Constructor
     public Autor(int autorId, String nombre, String apellido, String nacionalidad) {
         this.autorId = autorId;
         this.nombre = nombre;
@@ -14,7 +13,6 @@ public class Autor {
         this.nacionalidad = nacionalidad;
     }
 
-    // Getters y Setters
     public int getAutorId() { return autorId; }
     public void setAutorId(int autorId) { this.autorId = autorId; }
 
