@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConexionBD {
-    private static final String URL = "jdbc:mysql://localhost:3320/biblioteca"; // ← aquí el cambio
+    private static final String URL = "jdbc:mysql://localhost:3320/biblioteca";
     private static final String USUARIO = "root";
     private static final String CONTRASENA = "1234";
 
